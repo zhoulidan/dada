@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+dist/
+/.history/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+!/node_modules
+/node_modules/*
+!/node_modules/html2canvas
+/node_modules/html2canvas/*
+!/node_modules/html2canvas/dist
+/node_modules/html2canvas/dist/*
+!/node_modules/html2canvas/dist/html2canvas.js
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

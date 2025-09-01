@@ -5,7 +5,7 @@
 <!-- <div class="blockzfx"></div>
 <div class="blockzfx2"></div> -->
 <!-- <p class="txt1">zbcd</p> -->
-<p class="p1">vant+vue项目</p>
+<p class="p1">vant+vue项目zhouxinpang已改</p>
 <p class="p1">第二个div元素</p>
 <p class="p1">第三个div元素</p>
 <div class="home-banner-wrapper">
