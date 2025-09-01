@@ -1,0 +1,29 @@
+.loading{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_item{
+    width: 20px;
+    margin-right: 20px;
+    background: green;
+    border-radius: 15px;
+     animation: loading 1s linear infinite;
+//线性，一直重复
+  }
+}
+/* 标准语法 */
+@keyframes loading {
+    0%,100%{
+       height: 100px;
+       background: rgb(48, 198, 6)n;
+     }
+    25% { height: 80px;   background: rgb(3, 146, 3);}
+    50% {  height: 40px;  background: rgb(137, 231, 83); }
+    80% { height: 20px;  background: rgb(171, 223, 149);}
+}
+@for $i from 1 through 6{
+  .loading_item:nth-child(#{$i}){
+    animation-delay: #{$i*0.2s};
+  }
+}
